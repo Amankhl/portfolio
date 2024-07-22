@@ -970,6 +970,21 @@ body.nav-active { overflow: hidden; }
   #MEDIA QUERIES
 \*-----------------------------------*/
 
+@media(max-width: 900px){
+  .btn-group{
+    display:flex;
+  }
+
+}
+@media(min-width: 901px){
+  .btn-group{
+    display: none;
+  }
+  .card-content{
+    margin-block-end: 0;
+  }
+}
+
 /**
  * responsive for large than 575px screen
  */
